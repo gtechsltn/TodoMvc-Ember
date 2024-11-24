@@ -484,7 +484,7 @@ catch(err) {
 
 ;
           if (!runningTests) {
-            require("todomvc/app")["default"].create({"name":"todomvc","version":"0.0.0+1e9b3e14"});
+            require("todomvc/app")["default"].create({"name":"todomvc","version":"0.0.0+536cfc48"});
           }
         
 //# sourceMappingURL=todomvc.map
