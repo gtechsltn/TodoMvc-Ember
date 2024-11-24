@@ -1,0 +1,8 @@
+<ul>
+  {{#each this.cart.items as |item|}}
+  <li>
+    {{item.name}}
+    <button type="button" {{on "click" (fn this.remove item)}}>Remove</button>
+  </li>
+  {{/each}}
+</ul>
